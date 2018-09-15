@@ -14,9 +14,9 @@ public class DAOConexion {
 	public DAOConexion(){
 		this.servidor="localhost";
 		this.usuario="postgres";
-		this.contrasena="power123";
+		this.contrasena="admin";
 		this.puerto="5432";
-		this.base_datos="la_perla";
+		this.base_datos="LaPerla";
 	}
 
 	public boolean conectar(){

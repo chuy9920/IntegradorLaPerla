@@ -28,11 +28,11 @@ public class ControladorMenu implements Initializable{
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		DAOUsuarios usuario=(DAOUsuarios) instancia.getPrimaryStage().getUserData();
-		lblMensaje.setText("Usuario: "+usuario.getUsuario());
+//		lblMensaje.setText("Usuario: "+usuario.getUsuario());
 		lblHora.setText("Hora de acceso: "+(new Date()).toString());
-		lblBienvenida.setText("Bienvenido al Sistema "+usuario.getUsuario());
+//		lblBienvenida.setText("Bienvenido al Sistema "+usuario.getUsuario());
 
-		switch(usuario.getTipo()){
+		/*switch(usuario.getTipo()){
 		case "administrador":
 			btnEmpleados.setDisable(false);
 			btnProductos.setDisable(false);
@@ -55,7 +55,7 @@ public class ControladorMenu implements Initializable{
 			btnClientes.setDisable(true);
 			btnCerrar.setDisable(false);
 			break;
-		}
+		}*/
 
 	}
 

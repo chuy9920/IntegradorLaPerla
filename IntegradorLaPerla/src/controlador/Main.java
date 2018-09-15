@@ -11,7 +11,7 @@ public class Main extends Application{
 	public void start(Stage primaryStage) throws Exception {
 		ventanas=ControladorVentanas.getInstancia();
 		ventanas.setPrimaryStage(primaryStage);
-		ventanas.asignarModal("../vista/Inicio.fxml", "Micelanea La perla");
+		ventanas.asignarModal("../vista/Menu.fxml", "Micelanea La perla");
 	}
 
 	public static void main(String[] args) {

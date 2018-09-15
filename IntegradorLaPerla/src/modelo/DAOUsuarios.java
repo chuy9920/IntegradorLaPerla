@@ -108,7 +108,7 @@ public class DAOUsuarios {
 		ResultSet rs=null;
 		try{
 			if(con.conectar()){
-				comando = con.getConexion().prepareStatement("select * from consulta_usuarios_activos;");
+				comando = con.getConexion().prepareStatement("select * from empleado;");
 				rs = comando.executeQuery();
 				while (rs.next()){
 					listaUsu.add(rs.getString("usuario"));

@@ -121,7 +121,7 @@ public class ControladorEmpleados implements Initializable{
 			cbSexo.getItems().addAll("Hombre", "Mujer");
 			cbSexo.getSelectionModel().select("Selecciona sexo");
 			cbUsu.getItems().clear();
-			cbUsu.setItems(insUsu.consultarUsuEmp());
+		//	cbUsu.setItems(insUsu.consultarUsuEmp());
 		}
 		catch(Exception ex){
 
@@ -132,7 +132,7 @@ public class ControladorEmpleados implements Initializable{
 		tvEmpleados.getItems().clear();
 		lista = empleado.consultar(/*"select clave_empleado, clave_dir, clave_e, nombre,apellido_paterno,apellido_materno, fecha_nacimiento, "
 				+ "sexo, sueldo,telefono, fecha_contratacion, puestos from empleado natural join tipo_empleado "
-				+ "natural join direccion where estado=true"*/ "select * from consulta_empleados_activos;");
+				+ "natural join direccion where estado=true"*/ "select * from consulta_empleados_activos;");/* ----*/
 		tvEmpleados.setItems(lista);
 		tvEmpleados.refresh();
 		listaBusqueda=new FilteredList<DAOEmpleados>(lista);
