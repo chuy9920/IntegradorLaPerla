@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ControladorMenu">
+   <children>
+      <Pane layoutX="131.0" layoutY="27.0" opacity="0.24" prefHeight="85.0" prefWidth="447.0" style="-fx-background-color: #efb810;" />
+      <ToolBar layoutY="7.0" orientation="VERTICAL" prefHeight="491.0" prefWidth="106.0" style="-fx-background-color: #161E5F;" AnchorPane.bottomAnchor="59.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="494.0" AnchorPane.topAnchor="0.0">
+        <items>
+            <Button fx:id="btnEmpleados" alignment="TOP_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickEmpleados" prefHeight="60.0" prefWidth="87.0" style="-fx-background-color: #efb810;" text="Empleados">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/empleado.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnProductos" alignment="TOP_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickProductos" prefHeight="50.0" prefWidth="87.0" style="-fx-background-color: #efb810;" text="Productos">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/productos.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnClientes" alignment="TOP_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickClientes" prefHeight="60.0" prefWidth="87.0" style="-fx-background-color: #efb810;" text="Clientes">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/clientes.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnProveedor" alignment="TOP_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickProveedor" prefHeight="60.0" prefWidth="87.0" style="-fx-background-color: #efb810;" text="Proveedores">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/proveedor.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnUsuarios" onAction="#clickUsuarios" alignment="TOP_CENTER" contentDisplay="TOP" mnemonicParsing="false"  prefHeight="60.0" prefWidth="87.0" style="-fx-background-color: #efb810;" text="Usuarios" textFill="#161e5f">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/usuarios.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnCerrar" alignment="TOP_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickCerrar" prefHeight="60.0" prefWidth="87.0" style="-fx-background-color: #efb810;" text="Cerrar Sesión">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/salir.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+        </items>
+         <padding>
+            <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+         </padding>
+      </ToolBar>
+      <ImageView fitHeight="343.0" fitWidth="470.0" layoutX="123.0" layoutY="56.0" opacity="0.38" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="151.0" AnchorPane.leftAnchor="123.0" AnchorPane.rightAnchor="14.36566162109375" AnchorPane.topAnchor="56.0">
+         <image>
+            <Image url="@img/logo.png" />
+         </image>
+      </ImageView>
+      <Pane layoutY="350.0" prefHeight="63.0" prefWidth="600.0" style="-fx-background-color: #161E5F;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label fx:id="lblMensaje" layoutX="14.0" layoutY="23.0" text="Usuario" textFill="#efb810">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label fx:id="lblHora" layoutX="214.0" layoutY="23.0" text="Hora" textFill="#efb810">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+         </children></Pane>
+      <Label fx:id="lblBienvenida" layoutX="174.0" layoutY="48.0">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

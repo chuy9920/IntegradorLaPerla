@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="750.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ControladorAcceso">
+   <children>
+      <Pane layoutX="332.0" layoutY="63.0" prefHeight="325.0" prefWidth="400.0" style="-fx-background-color: #B5B3B3;">
+         <children>
+            <Label layoutX="78.0" layoutY="105.0" text="Usuario:" textFill="#161e5f">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="176.0" text="Contraseña:" textFill="#161e5f">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtUsuario" layoutX="200.0" layoutY="105.0" prefHeight="25.0" prefWidth="175.0" style="-fx-background-color: #efb810;" />
+            <PasswordField fx:id="pfContrasena" layoutX="201.0" layoutY="176.0" prefHeight="25.0" prefWidth="175.0" style="-fx-background-color: #efb810;" />
+            <Button layoutX="154.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickIniciarSesion" style="-fx-background-color: #161E5F;" text="Iniciar sesión" textFill="#efb810">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label layoutX="116.0" layoutY="14.0" text="Inicio de Sesión">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="172.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/usuario.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="175.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/contraseña.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <ImageView fitHeight="220.0" fitWidth="288.0" layoutX="24.0" layoutY="115.0">
+         <image>
+            <Image url="@img/logo.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="-1.0" layoutY="414.0" prefHeight="29.0" prefWidth="487.0" style="-fx-background-color: #161E5F;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Pane layoutX="7.0" layoutY="3.0" prefHeight="35.0" prefWidth="487.0" style="-fx-background-color: #161E5F;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

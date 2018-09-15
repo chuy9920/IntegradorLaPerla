@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<AnchorPane prefHeight="650.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ControladorEmpleados">
+   <children>
+      <Pane layoutX="43.0" layoutY="126.0" prefHeight="185.0" prefWidth="694.0" style="-fx-background-color: #161E5F;" AnchorPane.bottomAnchor="348.0" AnchorPane.leftAnchor="43.0" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="126.0">
+         <children>
+            <GridPane hgap="10.0" layoutX="14.0" layoutY="9.0" prefHeight="170.0" prefWidth="666.0" vgap="10.0">
+              <columnConstraints>
+                <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="177.0" minWidth="10.0" prefWidth="127.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="361.0" minWidth="10.0" prefWidth="170.0" />
+                  <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="254.0" minWidth="10.0" prefWidth="131.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="219.0" minWidth="10.0" prefWidth="195.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="75.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="69.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="69.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="69.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Nombre:" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="Apellido Paterno:" textFill="WHITE" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtNombre" prefHeight="25.0" prefWidth="165.0" promptText="Nombre" GridPane.columnIndex="1" />
+                  <Label text="Sueldo:" textFill="WHITE" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="Teléfono:" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtSueldo" promptText="Sueldo" GridPane.columnIndex="3" />
+                  <TextField fx:id="txtTelefono" promptText="Telefono" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <TextField fx:id="txtApa" promptText="Apellido Paterno" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label text="Apellido Materno:" textFill="WHITE" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtAma" promptText="Apellido Materno" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <DatePicker fx:id="dpfNaci" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Label text="Fecha de Nacimiento:" textFill="WHITE" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="Sexo:" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Label text="Fecha contratación:" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <DatePicker fx:id="dpfContra" prefHeight="25.0" prefWidth="203.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <ComboBox fx:id="cbSexo" prefHeight="25.0" prefWidth="198.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Label text="Dirección:" textFill="WHITE" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="Tipo Empleado:" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Button fx:id="btnDireccion" mnemonicParsing="false" onMouseClicked="#clickDireccion" prefWidth="169.0" text="Agregar Dirección" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <ComboBox fx:id="cbTipoEm" prefWidth="198.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+               </children>
+            </GridPane>
+         </children></Pane>
+      <Pane layoutX="23.0" layoutY="610.0" prefHeight="40.0" prefWidth="780.0" style="-fx-background-color: #161E5F;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="610.0" />
+      <ToolBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #B5B3B3;" AnchorPane.bottomAnchor="580.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <Button fx:id="btnAgregar" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickAgregar" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Agregar">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/agregar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnGuardar" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickGuardar" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Guardar">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/guardar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnEliminar" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickEliminar" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Eliminar">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/eliminar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnEditar" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickEditar" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Editar">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/editar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnCancelar" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickCancelar" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Cancelar">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/cancelar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button onAction="#clickReporte" alignment="TOP_CENTER" contentDisplay="TOP" mnemonicParsing="false" prefHeight="69.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Notas">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/Notas.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnSalir" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickSalir" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Salir">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/salir.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="58.0" prefWidth="270.0" text="Empleados" textFill="#161e5f">
+               <font>
+                  <Font name="Monotype Corsiva" size="44.0" />
+               </font>
+            </Label>
+        </items>
+      </ToolBar>
+      <TableView fx:id="tvEmpleados" layoutX="43.0" layoutY="325.0" onMouseClicked="#clickTabla" prefHeight="208.0" prefWidth="694.0" style="-fx-background-color: #efb810;" AnchorPane.bottomAnchor="126.0" AnchorPane.leftAnchor="43.0" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="325.0">
+        <columns>
+          <TableColumn prefWidth="91.0" text="Nombre">
+          	<cellValueFactory>
+            	<PropertyValueFactory property="nombre" />
+            </cellValueFactory>
+          </TableColumn>
+            <TableColumn prefWidth="84.0" text="Apellido Paterno">
+            <cellValueFactory>
+            	<PropertyValueFactory property="apellido_paterno" />
+            </cellValueFactory>
+          </TableColumn>
+            <TableColumn prefWidth="93.0" text="Apellidp Materno">
+            <cellValueFactory>
+            	<PropertyValueFactory property="apellido_materno" />
+            </cellValueFactory>
+          </TableColumn>
+          <TableColumn prefWidth="96.0" text="Fecha de nacimiento">
+          	<cellValueFactory>
+                <PropertyValueFactory property="fecha_nacimiento" />
+          	</cellValueFactory>
+          </TableColumn>
+            <TableColumn prefWidth="60.0" text="Sueldo">
+            <cellValueFactory>
+            	<PropertyValueFactory property="sueldo" />
+            </cellValueFactory>
+          </TableColumn>
+            <TableColumn minWidth="0.0" prefWidth="67.0" text="Teléfono">
+            <cellValueFactory>
+            	<PropertyValueFactory property="telefono" />
+            </cellValueFactory>
+          </TableColumn>
+            <TableColumn prefWidth="75.0" text="Sexo">
+            <cellValueFactory>
+            	<PropertyValueFactory property="sexo" />
+            </cellValueFactory>
+          </TableColumn>
+            <TableColumn prefWidth="126.0" text="Fecha contratación">
+            <cellValueFactory>
+            	<PropertyValueFactory property="fecha_contratacion" />
+            </cellValueFactory>
+          </TableColumn>
+          <TableColumn prefWidth="126.0" text="Puesto">
+            <cellValueFactory>
+            	<PropertyValueFactory property="puestos" />
+            </cellValueFactory>
+          </TableColumn>
+        </columns>
+      </TableView>
+      <CheckBox fx:id="ckbInactivos" layoutX="621.0" layoutY="545.0" mnemonicParsing="false" onAction="#clickInactivos" text="Mostrar inactivos" />
+      <ImageView fitHeight="70.0" fitWidth="63.0" layoutX="42.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="40.77580261230469" AnchorPane.leftAnchor="42.0" AnchorPane.rightAnchor="675.0" AnchorPane.topAnchor="546.0">
+         <image>
+            <Image url="@img/empleado.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="540.0" layoutY="86.0" prefHeight="37.0" prefWidth="193.0">
+         <children>
+            <ImageView fitHeight="37.0" fitWidth="42.0" layoutX="-2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@iconos/buscar.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="txtBuscador" layoutX="40.0" layoutY="6.0" onKeyReleased="#textChange_busqueda" prefHeight="25.0" prefWidth="149.0" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Pane>
+      <Pane layoutX="43.0" layoutY="88.0" prefHeight="43.0" prefWidth="346.0" style="-fx-background-color: #161E5F;">
+         <children>
+            <HBox alignment="CENTER_RIGHT" layoutY="1.0" prefHeight="49.0" prefWidth="328.0">
+               <children>
+                  <Label text="Usuario:" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="9.0" />
+                     </HBox.margin>
+                  </Label>
+                  <ComboBox fx:id="cbUsu" prefHeight="25.0" prefWidth="175.0" promptText="(Opcional)" />
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

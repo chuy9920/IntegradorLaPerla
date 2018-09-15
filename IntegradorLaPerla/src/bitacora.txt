@@ -1,0 +1,407 @@
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 00:46:42
+Descripcion de la accion: Agregar
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 00:47:25
+Descripcion de la accion: Agregar
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 00:47:38
+Descripcion de la accion: Eliminar
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 00:47:41
+Descripcion de la accion: Eliminar
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 00:47:44
+Descripcion de la accion: Reactivar
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 00:47:45
+Descripcion de la accion: Reactivar
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 00:57:47
+Descripcion de la accion: Eliminar
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Empleados
+Fecha: 09/08/2018 08:18:57
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Productos
+Fecha: 09/08/2018 08:20:28
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Empleados
+Fecha: 09/08/2018 08:24:12
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Empleados
+Fecha: 09/08/2018 08:25:56
+Descripcion de la accion: Reactivar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Productos
+Fecha: 09/08/2018 08:27:15
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Productos
+Fecha: 09/08/2018 08:27:21
+Descripcion de la accion: Reactivar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 08:29:22
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 08:29:28
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Clientes
+Fecha: 09/08/2018 08:30:46
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Clientes
+Fecha: 09/08/2018 08:30:58
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Clientes
+Fecha: 09/08/2018 08:31:03
+Descripcion de la accion: Reactivar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Empleados
+Fecha: 09/08/2018 08:38:48
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Empleados
+Fecha: 09/08/2018 08:39:45
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Empleados
+Fecha: 09/08/2018 08:39:51
+Descripcion de la accion: Reactivar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 08:40:50
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 08:41:34
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 08:41:41
+Descripcion de la accion: Reactivar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 08:41:43
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 08:41:47
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Clientes
+Fecha: 09/08/2018 08:44:59
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Clientes
+Fecha: 09/08/2018 08:45:46
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 08:58:41
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:22:45
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:22:45
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:23:55
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:23:58
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:23:58
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:23:58
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:23:58
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 09:24:41
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 09:24:41
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 09:24:41
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 09:27:03
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 09:27:13
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 09:27:21
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:37:23
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:37:49
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:37:55
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:38:00
+Descripcion de la accion: Reactivar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 09/08/2018 09:38:03
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Empleados
+Fecha: 09/08/2018 09:40:17
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Empleados
+Fecha: 09/08/2018 09:45:15
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Proveedores
+Fecha: 09/08/2018 09:52:17
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 10/08/2018 09:00:09
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 10/08/2018 09:00:18
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 10/08/2018 09:00:46
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 10/08/2018 09:01:27
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 12/08/2018 01:43:20
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 12/08/2018 01:46:24
+Descripcion de la accion: Reactivar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 12/08/2018 01:46:29
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 12/08/2018 01:46:35
+Descripcion de la accion: Reactivar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 13/08/2018 10:58:40
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 13/08/2018 10:59:39
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 13/08/2018 10:59:48
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 13/08/2018 10:59:48
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Usuarios
+Fecha: 13/08/2018 10:59:48
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Clientes
+Fecha: 13/08/2018 11:00:54
+Descripcion de la accion: Editar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Clientes
+Fecha: 14/08/2018 09:35:57
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Clientes
+Fecha: 14/08/2018 09:35:57
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Clientes
+Fecha: 14/08/2018 09:35:57
+Descripcion de la accion: Agregar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Productos
+Fecha: 14/08/2018 09:48:45
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------
+BITACORA DE OPERACIONES
+Accion en: Catalogo Productos
+Fecha: 14/08/2018 09:48:57
+Descripcion de la accion: Eliminar
+Realizada por: carlos
+---------------------------------------------------------------------

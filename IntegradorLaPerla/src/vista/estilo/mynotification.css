@@ -1,0 +1,19 @@
+.notification {
+    -fx-background-color : rgba(15, 0, 0, 0.8);
+    -fx-background-radius: 0;
+    -fx-effect           : innershadow(two-pass-box, rgba(255, 255, 255, 0.6), 5.0, 0.25, 0, 0);
+    -foreground-color    : yellow;
+    -icon-color          : white;
+}
+
+.notification .title {
+    -fx-font-size  : 1.083333em;
+    -fx-font-weight: bold;
+    -fx-text-fill  : yellow;
+}
+.notification .message {
+    -fx-font-size       : 1.0em;
+    -fx-content-display : left;
+    -fx-graphic-text-gap: 10;
+    -fx-text-fill       : red;
+}

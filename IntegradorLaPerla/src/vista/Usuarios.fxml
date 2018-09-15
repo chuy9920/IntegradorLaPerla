@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<AnchorPane prefHeight="450.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ControladorUsuarios">
+   <children>
+      <Pane layoutX="31.0" layoutY="152.0" prefHeight="168.0" prefWidth="318.0" style="-fx-background-color: #161E5F;" />
+      <Pane layoutX="23.0" layoutY="68.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #161E5F;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="400.0" />
+      <ToolBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #B5B3B3;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <Button fx:id="btnAgregar" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickAgregar" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Agregar">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/agregarE.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnGuardar" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickGuardar" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Guardar">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/guardar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnEliminar" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickEliminar" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Eliminar">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/eliminar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnEditar" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickEditar" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Editar">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/editar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnCancelar" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickCancelar" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Cancelar">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/cancelar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnNotas" onAction="#clickReporte" alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Notas">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/notas.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="btnSalir" contentDisplay="TOP" mnemonicParsing="false" onAction="#clickSalir" prefHeight="60.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="Salir">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@iconos/salir.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="58.0" prefWidth="282.0" text="Usuarios" textFill="#161e5f">
+               <font>
+                  <Font name="Monotype Corsiva" size="44.0" />
+               </font>
+            </Label>
+        </items>
+      </ToolBar>
+      <GridPane hgap="10.0" layoutX="32.0" layoutY="169.0" prefHeight="127.0" prefWidth="310.0" vgap="10.0" AnchorPane.leftAnchor="32.0" AnchorPane.topAnchor="169.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="10.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="216.0" minWidth="10.0" prefWidth="216.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Usuario:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label text="Contraseña:" textFill="WHITE" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label text="Tipo:" textFill="WHITE" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <TextField fx:id="txtUsuario" prefHeight="38.0" prefWidth="216.0" GridPane.columnIndex="1" />
+            <PasswordField fx:id="pfContrasena" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ComboBox fx:id="cbTipo" prefHeight="25.0" prefWidth="216.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <CheckBox fx:id="ckbVer" mnemonicParsing="false" text="Mostrar " textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></CheckBox>
+         </children>
+      </GridPane>
+      <TableView fx:id="tvUsuarios" layoutX="373.0" layoutY="130.0" onMouseClicked="#clickTabla" prefHeight="220.0" prefWidth="360.0" style="-fx-background-color: #efb810;" AnchorPane.rightAnchor="47.0">
+        <columns>
+          <TableColumn prefWidth="173.0" text="Tipo">
+          	<cellValueFactory>
+            	<PropertyValueFactory property="tipo" />
+            </cellValueFactory>
+          </TableColumn>
+          <TableColumn prefWidth="186.0" text="Usuario">
+          	<cellValueFactory>
+                <PropertyValueFactory property="usuario" />
+          	</cellValueFactory>
+          </TableColumn>
+        </columns>
+      </TableView>
+      <CheckBox fx:id="ckbInactivos" layoutX="373.0" layoutY="360.0" mnemonicParsing="false" onAction="#clickInactivos" text="Mostrar inactivos" />
+      <ImageView fitHeight="70.0" fitWidth="63.0" layoutX="31.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="686.0" AnchorPane.topAnchor="337.0">
+         <image>
+            <Image url="@img/usuarios.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="540.0" layoutY="81.0" prefHeight="37.0" prefWidth="193.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@iconos/buscar.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="txtBuscador" layoutX="40.0" layoutY="6.0" onKeyReleased="#textChange_busqueda" prefHeight="25.0" prefWidth="149.0" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Pane>
+   </children>
+</AnchorPane>
