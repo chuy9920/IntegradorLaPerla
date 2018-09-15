@@ -121,7 +121,7 @@ public class ControladorEmpleados implements Initializable{
 			cbSexo.getItems().addAll("Hombre", "Mujer");
 			cbSexo.getSelectionModel().select("Selecciona sexo");
 			cbUsu.getItems().clear();
-		//	cbUsu.setItems(insUsu.consultarUsuEmp());
+			cbUsu.setItems(insUsu.consultarUsuEmp());
 		}
 		catch(Exception ex){
 
